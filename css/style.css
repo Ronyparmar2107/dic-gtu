@@ -138,3 +138,17 @@
     
       background-size: cover;
   }
+  footer{
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      /* position: ; */
+      justify-content: center;
+      align-items: center;
+      color: white;
+      width: auto;
+      flex: 1;
+  }
+  #footer-date{
+    position: relative;  
+    right: 0%;}

@@ -57,7 +57,7 @@ body{
     
 }
 
-form button {
+#submitbutton {
     width: 85px;
     padding: 8px;
     outline: none;

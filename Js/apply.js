@@ -1,3 +1,6 @@
-const submithandler = (e) => {
-    e.preventDefault();
+
+
+const submit = ()=>{
+    console.log(document.querySelector("#Clientname").value)
+
 }
