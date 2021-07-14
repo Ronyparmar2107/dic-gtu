@@ -243,4 +243,10 @@
             flex: 1;
             font-size: 13px;
         }
+       .swiper-button-prev{
+            display: none !important;
+        }
+        .swiper-button-next{
+            display: none !important;
+        }
     }

@@ -4,6 +4,7 @@ const swiper = new Swiper('.swiper-container', {
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      dynamicBullets: true,
     },
   
     // Navigation arrows
@@ -17,3 +18,6 @@ const swiper = new Swiper('.swiper-container', {
       el: '.swiper-scrollbar',
     },
   });
+
+
+ 
