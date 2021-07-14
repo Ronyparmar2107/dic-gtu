@@ -2,6 +2,7 @@ body{
     margin: 0%;
     padding: 0%;
     background-color: #1a1717;
+    font-family: 'Varela', sans-serif;
 }
 .head{
     color: white;
@@ -104,7 +105,6 @@ body{
 }
 .form-box{
     justify-content: center;
-    flex: 1;
     display: flex;
     
     
@@ -112,7 +112,6 @@ body{
 .form{
     float: right;
     display: flex;
-    /* border: 2px solid chartreuse; */
     border-radius: 10px;
     flex-wrap: wrap;
     height: fit-content;
@@ -176,11 +175,6 @@ body{
     opacity: 1;
     left: 10px;
   }
-
-
-
-
-  
 #contact-page{
     cursor: pointer;
     display: flex;
@@ -206,4 +200,132 @@ body{
   #contact-page:hover:after {
     opacity: 1;
     right: 10px;
+  }
+  @media only screen and (max-width: 497px){
+    *{
+        margin:0% ;
+        padding: 0%;
+    }
+    .head {
+        font-family: 'Raleway', sans-serif;
+           display: flex;
+           justify-content: center;
+           height: 65px;
+           width: auto;
+           padding: 0%;
+           /* padding-left: 119px; */
+           font-family: 'Varela', sans-serif;
+           font-weight: bold;
+       }
+       .head h1{
+            font-size: 25px;
+       }
+       #contact-page{
+           font-size: 14px;
+       }
+       #index-page{
+           font-size: 14px;
+       }
+       .gtu_logo{
+        display: flex;
+        align-items: center;
+       }
+       .gtu_logo img {
+        height: 3rem;
+        width: 2rem;
+        padding-left: 10px;
+          /* padding-top: 18px; ; */
+       }
+       .dic_logo{
+        display: flex;
+        align-items: center;
+    }
+    .dic_logo img {
+     height: 3rem;
+     width: 2rem;
+   
+    }
+    .apply-main{
+        color:white;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left:42px; 
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #work-title{
+        font-size: 28px;
+    }
+    #work-break{
+        display: none;
+    }
+    #work-para{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .apply-content{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .form{
+        float: right;
+        display: flex;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 70vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(219, 5, 69);
+        padding: 12px;
+        margin-top: -20px;
+    }
+    .lable{
+        font-size: 18px;
+        float: left;
+        width: 60vw;
+        clear: left;
+        margin-bottom: 10px;
+    }
+    
+    .input_tag{
+        width: 60vw;
+        column-width: 10px;
+        margin-left: 6px;
+        height: 3vh;
+        border-radius: 0px 12px 0px 12px;
+        margin-bottom: 12px;
+        outline: none;
+        padding: 7px;
+        border: 0px;
+    }
+    #contact-page:after {
+        display:none;
+    } 
+    #contact-page:hover{
+      background: tomato;
+    }
+
+    #index-page:hover{
+     background: tomato;
+    } 
+     #index-page:after {
+     display: none;
+    }
+ 
   }

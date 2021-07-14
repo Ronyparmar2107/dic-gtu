@@ -2,7 +2,7 @@ body{
     margin: 0%;
     padding: 0%;
     background-color: #1a1717;
-    
+    font-family: 'Varela', sans-serif;
 }
 .head{
     color: white;
@@ -222,4 +222,65 @@ body{
   #objectives-page:hover:after {
     opacity: 1;
     right: 10px;
+  }
+  @media only screen and (max-width: 497px){
+    .head h1{
+      font-size: 25px;
+    }
+    .gtu_logo{
+      display: flex;
+      align-items: center;
+     }
+     .gtu_logo img {
+      height: 3rem;
+      width: 2rem;
+      padding-left: 10px;
+        /* padding-top: 18px; ; */
+     }
+     .dic_logo{
+      display: flex;
+      align-items: center;
+  }
+  .dic_logo img {
+   height: 3rem;
+   width: 2rem;
+ 
+  }
+    .main{
+      display: flex;
+      height: 500px;
+      flex-direction: column;
+    }
+    .info{
+      margin-top: 10px;
+    }
+    .info p{
+      font-size: 10px;
+    }
+    #objectives-page{
+      margin-top: 30px;
+      font-size: 14px;
+    }
+    #apply-page{
+      font-size: 14px;
+    }
+    #contact-page{
+      font-size: 14px;
+  }
+    #index-page{
+      font-size: 14px;
+    }
+    #objectives-page:after{
+      display: none;
+   
+    }
+    #apply-page:after{
+  display: none;
+    }
+    #contact-page:after{
+    display: none;
+  }
+    #index-page:after{ 
+  display: none;
+    }
   }
