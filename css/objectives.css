@@ -318,6 +318,21 @@ body{
     #index-page{
       font-size: 14px;
     }
+    #index-page:hover{
+      background: tomato;
+     } 
+    #apply-page:hover{
+      background: tomato;
+     } 
+    #contact-page:hover{
+      background: tomato;
+     } 
+    #concept-page:hover{
+      background: tomato;
+     } 
+    #team-page:hover{
+      background: tomato;
+     } 
     #team-page:after{
       display: none;
     }

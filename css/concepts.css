@@ -257,6 +257,20 @@ body{
     .info p{
       font-size: 10px;
     }
+
+    #index-page:hover{
+      background: tomato;
+     } 
+
+    #objectives-page:hover{
+      background: tomato;
+     } 
+    #apply-page:hover{
+      background: tomato;
+     } 
+    #contact-page:hover{
+      background: tomato;
+     } 
     #objectives-page{
       margin-top: 30px;
       font-size: 14px;

@@ -269,5 +269,26 @@ body{
       font-size: 14px;
       margin-top: 40px;
     }
+    #apply-page:after{
+      display: none;
+    }
+    #contact-page:after{
+      display: none;
+    }
+    #index-page:after{
+      display: none;
+    }
+    #objective-page:hover{
+      background: tomato;
+     } 
+    #apply-page:hover{
+      background: tomato;
+     } 
+    #contact-page:hover{
+      background: tomato;
+     } 
+    #index-page:hover{
+      background: tomato;
+     } 
 
   }
