@@ -64,16 +64,14 @@
        font-weight: bold;
        font-size: 25px;
        
-   }
-   
+   }   
    .navbar ul {
        list-style: none;
        margin-top: 0.5%;
        display: flex;
        z-index: 100;
        padding-inline-start: 0px;
-   }
-   
+   } 
    .navbar ul li {
        background: #ca003b;
        width: 100%;
@@ -81,10 +79,7 @@
        line-height: 50px;
        text-align: center;
        position: relative;
-       font-size: 14px;
-       
-       
-       
+       font-size: 14px;    
    }
    .navbar ul li a{
        text-decoration: none;
@@ -95,7 +90,6 @@
        height: 100%;
        width: 100%;
    }
-   
    .navbar ul ul {
        display: none;
        margin-top: 0%;
@@ -110,8 +104,7 @@
    .navbar ul li:hover {
        background-color: rgb(232, 255, 255);
        
-   }
-   
+   } 
    .navbar ul li:hover>ul {
        
        display: block;
@@ -120,8 +113,7 @@
        opacity: .89;
       
        
-   }
-   
+   }  
   .swiper-container{
       display: flex;
       justify-content: center;
@@ -152,3 +144,42 @@
   #footer-date{
     position: relative;  
     right: 0%;}
+
+    @media only screen and (min-width: 600px) {
+        .Head {
+            font-family: 'Raleway', sans-serif;
+               display: flex;
+               justify-content: center;
+               height: 100px;
+               width: auto;
+               padding: 2rem;
+               padding-left: 119px;
+               font-family: 'Varela', sans-serif;
+               font-weight: bold;
+           }
+        .swiper-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            height: 200px;
+            width: 250px;
+            z-index: 0;
+            padding: 50px;
+        }
+        .swiper-slide{
+      
+            display: flex;
+            
+              background-size: cover;
+          }
+          .navbar ul li {
+            background: #ca003b;
+            width: 100%;
+            height: 30px;
+            line-height: 50px;
+            text-align: center;
+            position: relative;
+            font-size: 10px;    
+        }
+    }
