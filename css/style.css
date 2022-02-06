@@ -113,7 +113,7 @@
       
        
    }  
-  .swiper-container{
+  .mySwiper{
       display: flex;
       justify-content: center;
       align-items: center;
@@ -124,10 +124,8 @@
       padding: 50px;
   }
   .swiper-slide{
-      
     display: flex;
-    
-      background-size: cover;
+    background-size: cover;
   }
   footer{
       height: 20vh;
